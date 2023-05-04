@@ -11,8 +11,8 @@
         {
             "filename_prefix": "CAMOutputs/GerberFiles",
             "format_specifier": {
-                "decimal": 4,
-                "integer": 3
+                "decimal": 5,
+                "integer": 2
             },
             "generate_job_file": true,
             "output_type": "gerber",
@@ -229,8 +229,8 @@
         {
             "filename_prefix": "CAMOutputs/DrillFiles",
             "format_specifier": {
-                "decimal": 3,
-                "integer": 3
+                "decimal": 5,
+                "integer": 2
             },
             "output_type": "drill",
             "outputs": [
@@ -277,6 +277,6 @@
     ],
     "timestamp": "2019-07-17T17:48:33",
     "type": "EAGLE CAM job",
-    "units": "metric",
+    "units": "imperial",
     "version": "9.2.0"
 }
